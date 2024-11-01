@@ -8,9 +8,13 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #ffffff;
+    background-image: url('img/background.svg');
+    background-size: cover;  /* Ensures the image covers the whole background */
+    background-repeat: no-repeat;  /* Prevents the image from repeating */
+    background-attachment: fixed;  /* Keeps the background in place when scrolling */
     color: #333;
 }
+
 
 header {
     background: #333;

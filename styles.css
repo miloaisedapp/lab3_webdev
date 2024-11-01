@@ -89,6 +89,12 @@ table, th, td {
     text-align: center;
 }
 
+.hobbies img {
+    max-width: 70%; /* Ensures the image does not exceed the width of its container */
+    height: auto;    /* Maintains the aspect ratio */
+    margin: 1rem 0;  /* Adds some space above and below the image */
+}
+
 .campus-life img {
     width: 100%;
     max-width: 500px;
